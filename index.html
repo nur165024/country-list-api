@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Country List API</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <style>
+        .col-3{
+            padding: 10px 10px;
+            border: 1px solid rebeccapurple;
+            margin: 10px 0;
+        }
+        button{
+            cursor: pointer;
+            border: 2px solid rebeccapurple;
+            background-color: transparent;
+            transition: all ease-in .2s;
+            text-decoration: none;
+            color: black;
+            padding: 3px 5px;
+        }
+        button:hover{
+            text-decoration: none;
+            background-color: rebeccapurple;
+            color: #fff;
+        }
+        img{
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+    <section id="Countrypage">
+        <div class="container">
+             <h2>Country List</h2>
+            <div class="row" id="countryItem"></div>
+        </div>
+    </section>
+    <!-- details page -->
+    <section id="CountryDetailsPage">
+        <div class="container">
+            
+            <div class="row" id="countryDetails"></div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
